@@ -24,6 +24,7 @@ mkdir "%OUT%"
   src\*.cs || exit /b 1
 
 copy /y package\README.txt "%OUT%\" >nul
+copy /y LICENSE "%OUT%\LICENSE.txt" >nul
 
 rem Source + launcher for PCs where Smart App Control blocks the unsigned .exe.
 mkdir "%OUT%\app"

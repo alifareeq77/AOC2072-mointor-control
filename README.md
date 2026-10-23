@@ -28,3 +28,7 @@ The output goes to `dist\Monitor Control\` and is also zipped as `dist\MonitorCo
 | `src\` | App source (WPF and WinForms tray, DDC/CI through `dxva2.dll`) |
 | `package\` | Launcher script and the README that ships with the portable build |
 | `tools\make-icon.ps1` | Generates `assets\app.ico` |
+
+## License
+
+[MIT](LICENSE): free for anyone to use, modify and share.
